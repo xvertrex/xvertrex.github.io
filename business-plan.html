@@ -25,32 +25,46 @@
 
 <body>
 
-  <div class="hidden-desktop" id="content4">
-    <img style="width:95%" src="images/s1.png" alt="Screenshot1" />
-    <img style="width:95%" src="images/s2.png" alt="Screenshot2" />
-    <img style="width:95%" src="images/s3.png" alt="Screenshot3" />
-    <img style="width:95%" src="images/s4.png" alt="Screenshot4" />
-  </div>
-
-  <div class="visible-desktop" id="content4">
-    <div id="slider">
-      <a href="javascript:void(0);" class="control_next" title="b_next">></a>
-      <a href="javascript:void(0);" class="control_prev" title="b_prev">
-        <</a> <ul>
-          <li style="background: #aaa;"><img src="images/s1.png" alt="Screenshot1" /></li>
-          <li style="background: #aaa;"><img src="images/s2.png" alt="Screenshot2" /></li>
-          <li style="background: #aaa;"><img src="images/s3.png" alt="Screenshot3" /></li>
-          <li style="background: #aaa;"><img src="images/s4.png" alt="Screenshot4" /></li>
-          <li style="background: #aaa;"><img src="images/s5.png" alt="Screenshot5" /></li>
-        </ul>
+    <div style="background-color: black" class="hidden-desktop">
+      <div style="position: relative; display: inline;">
+        <img style="position:absolute;margin-top:40vw;margin-left: 50vw;transform: translate(-50%);z-index:5;width:30%" src="images/EXIL.png" alt="Exil Title">
+        <video autoplay loop muted playsinline style="width:200%;margin-left: 50vw;transform: translate(-50%)">
+          <source src="bg_video.mp4">
+          </video>
       </div>
     </div>
+
+    <div id="overlay" class="visible-desktop">
+      <div id="main-title" class="visible-desktop">
+      </div>
+      <div id="content1_2">
+        <ul class="social-nav model-5">
+          <a href="https://twitter.com/xvertrex" class="twitter" title="dev_twitter"><i class="fa fa-twitter"></i></a>
+        </ul>
+      </div>
+      <div id="content1_3">
+        <p>Mystic Clockwork Studio</p>
+      </div>
+      <div id="content1_4" class="visible-desktop">
+        <img src="images/EXIL.png" alt="Exil Title">
+        <div id="content1_5" class="visible-desktop">
+          <br><br>
+          <p>A battle-intensive, post-apocalyptic Metroidvania inspired by Hollow Knight and Cuphead!</p>
+        </div>
+      </div>
+      <video class="visible-desktop" id="hero-vid" poster="images/banner_notext.png" autoplay loop muted>
+        <source type="video/mp4" src="bg_video.mp4">
+        </source>
+      </video>
+    </div>
+
 
   <div id="content2">
     <div class="content2_2">
 
       <p style="color: white;font-weight:80; font-size:1rem">
-
+<br>
+<br>
         <h3 style="color: #fff6e0;font-weight:100; font-size:1.8rem">OVERVIEW:</h3>
         <br>
         Mystic Clockwork Studio LLC is a professional video game development company. Our current project is Exil. The game is a battle-intensive, action-adventure game belonging to the <a href="https://en.wikipedia.org/wiki/Metroidvania">Metroidvania</a> subgenre. We plan to launch a crowdfunding campaign on Kickstarter within the next few months.
@@ -98,7 +112,26 @@
         Year 3: 14 million USD<br><br>
         <h3 style="color: #fff6e0;font-weight:80; font-size:1.2rem">It is important to note that the majority of Exil’s Kickstarter backers and potential customers will be from the United States.</h3>
 
+        <div class="hidden-desktop" id="content4">
+          <img style="width:95%" src="images/s1.png" alt="Screenshot1" />
+          <img style="width:95%" src="images/s2.png" alt="Screenshot2" />
+          <img style="width:95%" src="images/s3.png" alt="Screenshot3" />
+          <img style="width:95%" src="images/s4.png" alt="Screenshot4" />
+        </div>
 
+        <div class="visible-desktop" id="content4">
+          <div id="slider">
+            <a href="javascript:void(0);" class="control_next" title="b_next">></a>
+            <a href="javascript:void(0);" class="control_prev" title="b_prev">
+              <</a> <ul>
+                <li style="background: #aaa;"><img src="images/s1.png" alt="Screenshot1" /></li>
+                <li style="background: #aaa;"><img src="images/s2.png" alt="Screenshot2" /></li>
+                <li style="background: #aaa;"><img src="images/s3.png" alt="Screenshot3" /></li>
+                <li style="background: #aaa;"><img src="images/s4.png" alt="Screenshot4" /></li>
+                <li style="background: #aaa;"><img src="images/s5.png" alt="Screenshot5" /></li>
+              </ul>
+            </div>
+          </div>
 
 
 
