@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="A battle-intensive, post-apocalyptic Metroidvania inspired by Hollow Knight and Cuphead!">
+  <meta name="keywords" content="Video Games, Unity, Unity3d, Developer, Exil, Metroidvania">
+  <meta name="author" content="Mystic Clockwork Studio LLC">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta property="og:image" content="https://exilgame.com/images/s3.jpg">
+  <meta property="og:image:type" content="image/png">
+
+  <link rel="canonical" href="https://exilgame.com" />
+  <script type="text/javascript">
+  var host = "exilgame.com";
+  if ((host == window.location.host) && (window.location.protocol != "https:"))
+  window.location.protocol = "https";
+  </script>
+
+  <title>Exil</title>
+
+  <link rel="icon" href="favicon.png">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+
+
+<body>
+  <!-- ######################################## -->
+  <!-- ######################################## -->
+  <!-- MAIN START PAGE [Desktop] - - - - - SECTION 1 - - -->
+
+  <script>
+    window.onscroll = function() {scrollFunction()};
+    function scrollFunction() {
+      if (document.body.scrollTop > 1000 || document.documentElement.scrollTop > 1000) {
+        document.getElementById("bars1").style.color = "white";
+        document.getElementById("bars2").style.color = "white";
+        document.getElementById("bars3").style.color = "white";
+        document.getElementById("bars4").style.color = "white";
+        document.getElementById("bars5").style.color = "white";
+      } else {
+        document.getElementById("bars1").style.color = "black";
+        document.getElementById("bars2").style.color = "black";
+        document.getElementById("bars3").style.color = "black";
+        document.getElementById("bars4").style.color = "black";
+        document.getElementById("bars5").style.color = "black";
+      }
+    }
+  </script>
+
+  <div class="visible-desktop">
+    <div class="top-bar">
+      <div style="position: absolute; top: 35px; left: 50px;margin-left: 5%;">
+        <a href="#s2" id="bars1">MOVIE</a>
+        <a href="#s3" id="bars2">UPDATES</a>
+        <a href="#s4" id="bars3">FEATURES</a>
+        <a href="#s6" id="bars4">GALLERY</a>
+        <a href="#s7" id="bars5">TEAM</a>
+      </div>
+    </div>
+  </div>
+
+  <div id="mainstart" class="visible-desktop">
+    <img id="main-image" src="images/main_desktop.jpg" alt="main_desktop" />
+    <div class="main-title-left" style="margin-top:130px;">
+      <img src="images/EXIL.png" style="width: auto;" alt="Exil Title">
+      <br><br>
+      <p style="width:400px; display: block; margin-left: auto; margin-right: auto;color:black;"> A battle-intensive, post-apocalyptic Metroidvania inspired by Hollow Knight and Cuphead! </p>
+      <br><br>
+    </div>
+    <div class="bottom-bar">
+      <div style="position: absolute; bottom: 35px; left: 50px; margin-left: 5%;">
+        <div style="width: 285px;display: inline-block; padding-right:10px" class="hover14">
+          <figure><a href="https://kickstarter.com/projects/mys/exil" target="_blank"><img src="images/link_kickstarter.png" style="width: auto;" alt="link_k"></a></figure>
+        </div>
+        <div style="width: 285px;display: inline-block;" class="hover14">
+          <figure><a href="https://drive.google.com/drive/folders/1PqrWzbnjhFFziIGaYpplyBCpR597nQLm?usp=sharing" target="_blank"><img src="images/link_presskit.png" style="width: auto" alt="link_p"></a></figure>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div style="height:800px;width: 100%;left:0;top:0;position:relative;" class="hidden-desktop">
+    <img style="object-fit:cover;height:900px;" src="images/main_mobile.jpg" alt="main_mobile" />
+    <div style="  text-align: center;
+      position: absolute;
+      top: 22%;
+      left:50%;
+      width:420px;
+      transform: translateX(-50%) translateY(-100%);
+      height: auto;
+      z-index:1;">
+      <img src="images/EXIL-w.png" style="width: auto;" alt="Exil Title W">
+    </div>
+    <div class="bottom-bar">
+      <div style="position: absolute; bottom: 35px; left: 50%; transform: translateX(-50%);">
+        <div style="width: 285px;display: inline-block;" class="hover14">
+          <figure><a href="https://kickstarter.com/projects/mys/exil" target="_blank"><img src="images/link_kickstarter.png" style="width: auto;" alt="link_k"></a></figure>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ######################################## -->
+  <!-- ######################################## -->
+  <!-- VIDEO PAGE - - - - - SECTION 2 - - -->
+
+  <div id="s2">
+    <div id="overlay" class="visible-desktop">
+      <video class="visible-desktop" id="hero-vid" poster="images/banner_notext.jpg" autoplay loop muted>
+        <source type="video/mp4" src="bg_video.m4v">
+        </source>
+      </video>
+    </div>
+    <div style="background-color: black" class="hidden-desktop">
+      <div style="position: relative; display: inline;">
+        <video autoplay loop muted playsinline style="width:110%;margin-left: 50vw;transform: translate(-50%)">
+          <source src="bg_video_mobile.m4v">
+        </video>
+      </div>
+    </div>
+  </div>
+  <!-- ######################################## -->
+  <!-- ######################################## -->
+  <!-- UPDATES - - - - - SECTION 3 - - -->
+  <div id="s3">
+    <div class="visible-desktop">
+      <div class="section-3-block">
+        <div style="padding-top: 60px; display:inline-block; height:340px; width:400px;padding-right:100px;">
+          <h3 style="color: #edcb79;font-weight:100; font-size:1.4rem">XX.XX.2022</h3>
+          No News Yet!
+        </div>
+        <div style="padding-top: 20px; display:inline-block; height:420px; width:400px;">
+          <a class="twitter-timeline" data-lang="en" data-width="400" data-height="420" data-theme="dark" href="https://twitter.com/MysticClockwork?ref_src=twsrc%5Etfw"
+          data-chrome="noheader nofooter noscrollbar noborders transparent">Tweets by MysticClockwork</a>
+          <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        </div>
+      </div>
+    </div>
+
+    <div class="hidden-desktop">
+      <div class="section-3-block" style="display:block;height:auto;padding-bottom:60px;">
+        <div style="padding-top: 60px; height:auto; width:400px; margin-left: auto;margin-right: auto;">
+          <h3 style="color: #edcb79;font-weight:100; font-size:1.4rem">XX.XX.2022</h3>
+          No News Yet!
+        </div>
+        <div style="padding-top: 60px; height:420px; width:400px; margin-left: auto;margin-right: auto;">
+          <a class="twitter-timeline" data-lang="en" data-width="400" data-height="420" data-theme="dark" href="https://twitter.com/MysticClockwork?ref_src=twsrc%5Etfw"
+          data-chrome="noheader nofooter noscrollbar noborders transparent">Tweets by MysticClockwork</a>
+          <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- ######################################## -->
+  <!-- ######################################## -->
+  <!-- CONTENT #1 - - - - - SECTION 4 - - -->
+
+  <div class="section-4-block visible-desktop" id="s4">
+    <img src="images/bg-dragon.jpg" style="object-fit: cover; width:100%;" alt="dragon">
+    <div class="hideme" style="position: absolute; left:15%; transform: translateY(-50%);top:30%; text-align:left;">
+      <div style="line-height: 60px;">
+        <h3 style="color: #fff6e0;font-weight:600; font-size:2.2rem">TRADITIONAL</h3>
+        <h3 style="color: #fff6e0;font-weight:600; font-size:5.2rem">2D ANIMATION</h3>
+      </div>
+      <br>
+      <div class="hideme" style="max-width:420px">
+        <h3 style="color: #ede8dd;font-weight:80; font-size:1.1rem">Every friend and foe, as well as environmental chase sequences are drawn
+           frame-by-frame to enhance your experience and bring life to the world.</h3>
+        </div>
+      </div>
+    </div>
+
+    <div class="section-4-block hidden-desktop" style="height:850px;">
+      <img src="images/bg-dragon-m.jpg" style="object-fit: cover; width:100%;" alt="dragon">
+      <div class="hideme" style="position: absolute; margin-left: auto;margin-right: auto;top:50px; text-align:left;">
+        <div style="line-height: 60px;">
+          <h3 style="color: #fff6e0;font-weight:600; font-size:2.2rem">TRADITIONAL</h3>
+          <h3 style="color: #fff6e0;font-weight:600; font-size:4rem">2D ANIMATION</h3>
+        </div>
+        <br>
+        <div class="hideme" style="max-width:420px">
+          <h3 style="color: #ede8dd;font-weight:80; font-size:1.1rem">Every friend and foe, as well as environmental chase sequences are drawn
+             frame-by-frame to enhance your experience and bring life to the world.</h3>
+          </div>
+        </div>
+      </div>
+
+  <!-- ######################################## -->
+  <!-- CONTENT #2 - - - - - SECTION 5 - - -->
+
+    <div class="section-5-block visible-desktop"  id="s5">
+      <img src="images/bg-sky.jpg" style="object-fit: cover; width:100%;" alt="sky">
+      <div style="position: absolute; left:8%; transform: translateY(-50%);top:58%; text-align:left;">
+        <img src="images/flying_ship.png" style="object-fit:contain;max-height: 1000px;height: 65%;" alt="ship">
+      </div>
+      <div class="hideme" style="position: absolute; right:15%; transform: translateY(-50%);top:30%; text-align:right;">
+        <div style="line-height: 60px;">
+          <h3 style="color: #fff6e0;font-weight:600; font-size:1.8rem">A VAST, INTERCONNECTED, AND</h3>
+          <h3 style="color: #fff6e0;font-weight:600; font-size:3.2rem">DESOLATE WORLD</h3>
+        </div>
+        <br>
+        <div style="max-width:520px">
+          <h3 style="color: #ede8dd;font-weight:80; font-size:1.1rem">Exil seamlessly weaves the many areas in each island together without
+             a loading screen. The beautifully painted landscapes are craftily placed with parallax to enrich the world.</h3>
+        </div>
+      </div>
+    </div>
+
+    <div class="section-5-block hidden-desktop" style="height:850px;">
+      <img src="images/bg-sky.jpg" style="object-fit: cover; width:100%;" alt="sky">
+      <div style="position: absolute; left:8%; transform: translateY(-50%);top:58%; text-align:left;">
+        <img src="images/flying_ship.png" style="object-fit:contain;max-height: 1000px;height: 65%;" alt="ship">
+      </div>
+      <div class="hideme" style="position: absolute;margin-left: auto;margin-right: auto;top:50px; text-align:right;">
+        <div style="line-height: 60px;">
+          <h3 style="color: #fff6e0;font-weight:600; font-size:1.2rem">A VAST, INTERCONNECTED, AND</h3>
+          <h3 style="color: #fff6e0;font-weight:600; font-size:3.2rem">DESOLATE WORLD</h3>
+        </div>
+        <br>
+        <div style="max-width:420px">
+          <h3 style="color: #ede8dd;font-weight:80; font-size:1.1rem">Exil seamlessly weaves the many areas in each island together without
+             a loading screen. The beautifully painted landscapes are craftily placed with parallax to enrich the world.</h3>
+        </div>
+      </div>
+    </div>
+
+  <!-- ######################################## -->
+  <!-- ######################################## -->
+  <!-- SCREENSHOTS - - - - - SECTION 6 - - -->
+
+    <div class="section-6-block" id="s6">
+      <img src="images/sky-gradient.jpg" style="position: absolute; width:100%;height:100%" alt="sky-gradient">
+      <div class="hidden-desktop" id="content4">
+        <img style="width:95%" src="images/s2.jpg" alt="Screenshot2" />
+        <img style="width:95%" src="images/s3.jpg" alt="Screenshot3" />
+      </div>
+        <div class="visible-desktop" id="content4">
+          <div id="slider">
+            <a href="javascript:void(0);" class="control_next" title="b_next">></a>
+            <a href="javascript:void(0);" class="control_prev" title="b_prev">
+              <</a> <ul>
+                <li style="background: #aaa;"><img src="images/s1.jpg" alt="Screenshot1" /></li>
+                <li style="background: #aaa;"><img src="images/s2.jpg" alt="Screenshot2" /></li>
+                <li style="background: #aaa;"><img src="images/s3.jpg" alt="Screenshot3" /></li>
+                <li style="background: #aaa;"><img src="images/s4.jpg" alt="Screenshot4" /></li>
+                <li style="background: #aaa;"><img src="images/s5.jpg" alt="Screenshot5" /></li>
+              </ul>
+          </div>
+          <br><br>
+        </div>
+    </div>
+
+  <!-- ######################################## -->
+  <!-- ######################################## -->
+  <!-- THE TEAM - - - - - SECTION 7 - - -->
+
+    <div class="section-7-block" id="s7">
+
+      <div class="hideme" style= "width:340px;height:300px; padding-top: 120px;padding-right:30px;padding-left:30px;">
+        <img style="width:160px;padding:12px;" src="images/team-1.png" alt="team-1" />
+        <h3 style="color: #fff6e0;font-weight:600; font-size:1.5rem">Napat Saeung</h3>
+        <br>
+        <div style="max-width:360px">
+          <h3 style="color: #ede8dd;font-weight:80; font-size:1rem">I am the sole developer for Exil.
+             I have 8+ years of art experience, 6+ years of programming experience, and 5+ years of Unity experience.
+              I have been honing my game development skills throughout the years with multiple unnamed titles to
+               ensure Exil is the best possible game I can deliver.</h3>
+        </div>
+      </div>
+
+
+    </div>
+
+  <!-- ######################################## -->
+  <!-- ######################################## -->
+  <!-- MYSTIC CLOCKWORK STUDIO - LOGO - - - - - SECTION 8 - - -->
+
+    <div class="section-8-block">
+      <br><br>
+      <div id="content3">
+        <img src="images/mcs_logo.png" alt="mcs_logo" style="height:300px"/>
+      </div>
+      <div id="content3">
+        <p style="font-size:0.8rem; color:grey">All rights reserved (c) 2022 Mystic Clockwork Studio LLC</p>
+        <br>
+      </div>
+    </div>
+
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js'></script>
+    <script src="js/index.js"></script>
+
+  </body>
+
+  </html>
