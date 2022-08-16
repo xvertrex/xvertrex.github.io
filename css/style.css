@@ -12,11 +12,9 @@ height:100%;
 line-height:1.45;
 scroll-behavior: smooth;
 
+overflow-x: hidden !important;
 }
 
-body{
-  overflow-x: hidden !important;
-}
 
 #m-List{
   width: 614px;
