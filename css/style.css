@@ -15,7 +15,7 @@ scroll-behavior: smooth;
 
 }
 
-body{
+body, head{
   overflow-x: hidden !important;
 }
 
