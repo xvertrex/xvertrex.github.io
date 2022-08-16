@@ -12,7 +12,9 @@ height:100%;
 line-height:1.45;
 scroll-behavior: smooth;
 
+overflow-x: hidden;
 }
+
 
 body{
   overflow-x: hidden;
