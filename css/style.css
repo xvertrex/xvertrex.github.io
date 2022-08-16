@@ -12,10 +12,11 @@ height:100%;
 line-height:1.45;
 scroll-behavior: smooth;
 
-overflow-x: hidden !important;
 }
 
-
+body{
+  overflow-x: hidden !important;
+}
 
 #m-List{
   width: 614px;
@@ -892,7 +893,7 @@ margin-bottom:1.3rem;
 /* Visibility Helpers */
 
 @media only screen and (min-width:769px) {
-    .visible-mobile,.visible-tablet,.hidden-desktop {overflow-x: hidden !important; display:none !important; }
+    .visible-mobile,.visible-tablet,.hidden-desktop { display:none !important; }
 }
 
 @media only screen and (min-width:480px) and (max-width:768px) {
