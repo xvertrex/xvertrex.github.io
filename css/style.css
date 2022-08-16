@@ -893,7 +893,7 @@ margin-bottom:1.3rem;
 /* Visibility Helpers */
 
 @media only screen and (min-width:769px) {
-    .visible-mobile,.visible-tablet,.hidden-desktop { display:none !important; }
+    .visible-mobile,.visible-tablet,.hidden-desktop {overflow=x: hidden !important; display:none !important; }
 }
 
 @media only screen and (min-width:480px) and (max-width:768px) {
